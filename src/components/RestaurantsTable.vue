@@ -96,6 +96,7 @@ export default {
         )
         .includes(this.searchQuery.toLowerCase())
       )
+
       this.elementsNum = filtered.length
       if (this.newLimit > 10) {
         this.page = 0

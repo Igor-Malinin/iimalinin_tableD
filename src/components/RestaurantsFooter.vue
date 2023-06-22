@@ -36,6 +36,7 @@ export default {
       this.newPage = this.page
       this.$emit('change', ++this.newPage)
     },
+
     decrementPage() {
       this.$emit('change', --this.newPage)
     }
